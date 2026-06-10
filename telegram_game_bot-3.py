@@ -22,7 +22,7 @@ from telegram.ext import (
 # ───────────── تنظیمات ─────────────
 import os
 
-BOT_TOKEN = os.getenv("8902789201:AAF69aDwrWFZ5lIQm1uO7gfJYq5t8cROLrY")  # ← توکن بات را اینجا بذار
+BOT_TOKEN = os.getenv("8902789201:AAE_R0cNv3EY7d3F9zbqXCPLrRV9EF0NWqo")  # ← توکن بات را اینجا بذار
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
