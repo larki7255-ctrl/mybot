@@ -20,7 +20,9 @@ from telegram.ext import (
 )
 
 # ───────────── تنظیمات ─────────────
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"   # ← توکن بات را اینجا بذار
+import os
+
+BOT_TOKEN = os.getenv("8902789201:AAE_R0cNv3EY7d3F9zbqXCPLrRV9EF0NWqo")# ← توکن بات را اینجا بذار
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
